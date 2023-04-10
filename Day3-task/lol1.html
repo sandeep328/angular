@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+<title>Slideshow</title>
+
+<link rel="stylesheet" href="lol1.css">
+</head>
+
+<body>
+<center><div class = "container1">
+<img id="slideshow" src="image11.jpg" width="500" height="500"></center>
+<script>
+var images = ["image11.jpg", "image12.jpg", "image13.jpg", "image14.jpg"];
+var currentIndex = 0;
+var slideshow = document.getElementById("slideshow");
+setInterval(function() {
+slideshow.src = images[currentIndex];
+currentIndex = (currentIndex + 1) % images.length;
+}, 2000);
+</script>
+</div>
+</body>
+</html>
