@@ -1,0 +1,29 @@
+
+.titlebar{
+    background-color: #25986e;
+}
+span{
+    font-size: larger;
+    font-weight:bold;
+    color: white;
+}
+.titlename{
+    width:100%;
+    display:flex;
+    margin-left: 39%;
+}
+a{
+    background-color: #2699ad;
+    padding:10px;
+    color: rgb(68, 26, 167);
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: large;
+}
+a:hover{
+    cursor: pointer;
+    color: rgb(217, 227, 21);
+}
+
+
