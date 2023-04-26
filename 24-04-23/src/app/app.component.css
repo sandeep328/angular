@@ -1,0 +1,20 @@
+.nv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e6eaec;
+    padding: .1rem;
+    font-weight: bolder;
+}
+.nv>*{
+    font-family:cursive;
+    font-size: 2rem;
+}
+.crd{
+    padding: 0rem 1rem;
+}
+#comp{
+    text-decoration: none;
+    color:  #3065a2;
+    background-color: hsl(207, 71%, 43%);
+}
